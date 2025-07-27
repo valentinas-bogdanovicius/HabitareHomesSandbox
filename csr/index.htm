@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" href="../assets/app.css">
   <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.ico">
   <!-- <link href="../css2" rel="stylesheet"> -->
-  <link rel="stylesheet" href="../leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="">
+  <link rel="stylesheet" href="../leaflet@1.7.1/dist/leaflet.css">
    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.png">
    <meta property="og:type" content="website">
     <meta property="og:title" content="Habitare Homes">
@@ -94,33 +94,10 @@
   </div>
 
   <script src="../assets/bootstrap.min.js"></script>
-  <script src="../ajax/libs/leaflet/1.7.1/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+  <script src="../ajax/libs/leaflet/1.7.1/leaflet.js"></script>
   <script src="../load_components.js"></script>
-    <script type="text/javascript">
-      //https://codepen.io/gnykka/pen/VwaNGeP
-    // const tilesUrl = 'https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png';
-    const tilesUrl = 'https://{s}.tile.osm.org/{z}/{x}/{y}.png';
-    const map = L.map('map').setView([52.5, -1], 7);
-
-    L.tileLayer(tilesUrl).addTo(map);
-
-    const cities = [
-      { name: 'Atelier, Lewes', coords: [50.8664, -0.0229] },
-      { name: 'Alconbury Weald, Crest Nicholson', coords: [52.3758, -0.2403] },
-      { name: 'Dysart Road, Grantham', coords: [52.9100, -0.6734] },
-      { name: 'Campbell Wharf', coords: [52.0499, -0.7367] },
-      { name: 'Towergate, Crest Nicholson', coords: [52.0313, -0.6788] },
-      { name: 'Coombe Farm, Saltdean', coords: [50.8127, -0.0253] },
-      { name: 'Tattenhoe Park, Crest Nicholson', coords: [51.9936, -0.8046] },
-      { name: 'Old Malling Farm, Lewes', coords: [50.885099, 0.002584] },
-    ];
-    const markers = cities.map(c =>
-      L.marker(c.coords)
-        .addTo(map)
-        // .bindPopup(`${c.name}`)
-        .bindTooltip(`${c.name}`)
-    );
-  </script>
+    
 </body>
 </html>
+
 

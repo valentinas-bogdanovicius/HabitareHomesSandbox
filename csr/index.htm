@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Habitare Homes builds new Shared Ownership and Affordable Rental homes across the UK">
+  <link rel="stylesheet" type="text/css" href="../assets/app.css">
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
+  <!-- <link href="../css2" rel="stylesheet"> -->
+  <link rel="stylesheet" href="../leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="">
+   <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.png">
+   <meta property="og:type" content="website">
+    <meta property="og:title" content="Habitare Homes">
+    <meta property="og:image" content="/assets/img/habitare-homes.jpg">
+    <meta property="og:description" content="Habitare Homes offers affordable Shared Ownership homes across England.">
+  <title>Governance and CSR | Habitare Homes</title>
+  <!-- Google tag (gtag.js) -->
+<script type="text/plain" async="" src="../gtag/js?id=G-EXFY9FW7PJ" data-cookieconsent="statistics"></script>
+<script type="text/plain" data-cookieconsent="statistics">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EXFY9FW7PJ');
+</script>
+<!-- <script id="Cookiebot" src="../uc.js" data-cbid="2c8be50b-50fe-40ea-aa5a-a20e3e28c7cb" type="text/javascript" async=""></script> -->
+</head>
+<body>
+  <div class="page">
+    <div id="header-placeholder"></div>
+    <main class="content">
+      <div class="section__container grey">
+    <section class="section">
+  <div class="intro">
+    <h1>Governance and Impact</h1>
+  </div>
+      <div class="grid-4 no-gap optional">
+        <article class="feature">
+          <i class="ico-target sz-xl c-blue"></i>
+          <h5>RSH compliant</h5>
+        </article>
+        <article class="feature">
+          <i class="ico-puzzle sz-xl c-blue"></i>
+          <h5>Inclusive & accessible</h5>
+        </article>
+        <article class="feature">
+          <i class="ico-globe sz-xl c-blue"></i>
+          <h5>Environmental and Social Impact</h5>
+        </article>
+        <article class="feature">
+          <i class="ico-recycle sz-xl c-blue"></i>
+          <h5>Eco-conscious</h5>
+        </article>
+      </div>
+    </section>
+  </div>
+<div class="section__container white">
+  <section class="section">
+    <div class="copy-container copy">
+      <h2>Governance</h2>
+      <p>We are fully committed to meeting the regulatory requirements set by the Regulator of Social Housing (RSH) in the delivery and operation of homes under Habitare Homes, and have developed a robust corporate governance framework.</p>
+      <h2>Equality, Diversity and Inclusion</h2>
+      <p>Habitare Homes wants to make sure that we deliver services that are inclusive, accessible and which respond and
+      support the needs of our customers.</p>
+      <p>Habitare Homes is committed to the principles of Equality and Diversity in employment and service delivery and
+        seeks to adhere to the provisions of the Equality Act 2010, by opposing discrimination, victimisation and
+        harassment on the grounds of all recognised protected characteristics.</p>
+
+        <p>Habitare Homes will provide leadership and accountability in promoting equality and diversity. Equality ensures people are treated fairly and given fair chances. It recognises different needs and promotes fair and inclusive opportunity, access, participation and contribution. Diversity acknowledges and respects differences within and between groups of people.</p>
+      <p>The practical application is reflected in our recruitment and service delivery policies and procedures which we implement jointly with our managing agents.</p>
+      <h2>Environmental and Social Impact</h2>
+      <p>Positive environmental and social outcomes are central to our strategy. With respect to making new investments,
+        Habitare Homes seeks to invest in projects that have, where possible, the following characteristics: a focus on
+        placemaking, an improvement in the carbon footprint, mixed tenure communities and a demonstrable improvement in housing affordability. In delivering tenant and asset management services, we work with housing associations that are rooted in their communities and have a focus on delivering for customers and community
+      stakeholders.</p>
+      <p>We have developed an Impact Underwriting Framework and Impact Audit Framework together with New
+        Philanthropy Capital (“NPC”) and Sheffield Hallam University’s Centre for Regional Economic and Social Research
+        (“CRESR”). All investments are underwritten from an environmental and social impact perspective, including an
+        assessment of our partners’ intentions on impact, additionality, financial sustainability, environmental
+      sustainability and housing quality – as well as our ability to oversee and control these items through contractual terms and governance structures.</p>
+      <p>To assess how we are performing against our strategic objectives, the Company will have its social and
+        environmental outcomes audited independently by the CRESR team in an annual Impact Audit. The output and
+        outcome indicators for the audit report are structured around three key areas: housing affordability, residential
+        stability and housing quality (when lived in). Output indicators will be a quantitative assessment that sets out what
+        we accomplished versus our targets. Outcome data will primarily be captured by CRESR through short surveys and
+        focus groups as we focus on the lived tenant experience, and the resulting data will be analysed for inclusion in the
+      annual Impact Audit.</p>
+    </div>
+  </section>
+</div>
+    </main>
+    <div id="footer-placeholder"></div>
+
+  </div>
+
+  <script src="../assets/bootstrap.min.js"></script>
+  <script src="../ajax/libs/leaflet/1.7.1/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+  <script src="../load_components.js"></script>
+    <script type="text/javascript">
+      //https://codepen.io/gnykka/pen/VwaNGeP
+    // const tilesUrl = 'https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png';
+    const tilesUrl = 'https://{s}.tile.osm.org/{z}/{x}/{y}.png';
+    const map = L.map('map').setView([52.5, -1], 7);
+
+    L.tileLayer(tilesUrl).addTo(map);
+
+    const cities = [
+      { name: 'Atelier, Lewes', coords: [50.8664, -0.0229] },
+      { name: 'Alconbury Weald, Crest Nicholson', coords: [52.3758, -0.2403] },
+      { name: 'Dysart Road, Grantham', coords: [52.9100, -0.6734] },
+      { name: 'Campbell Wharf', coords: [52.0499, -0.7367] },
+      { name: 'Towergate, Crest Nicholson', coords: [52.0313, -0.6788] },
+      { name: 'Coombe Farm, Saltdean', coords: [50.8127, -0.0253] },
+      { name: 'Tattenhoe Park, Crest Nicholson', coords: [51.9936, -0.8046] },
+      { name: 'Old Malling Farm, Lewes', coords: [50.885099, 0.002584] },
+    ];
+    const markers = cities.map(c =>
+      L.marker(c.coords)
+        .addTo(map)
+        // .bindPopup(`${c.name}`)
+        .bindTooltip(`${c.name}`)
+    );
+  </script>
+</body>
+</html>
+

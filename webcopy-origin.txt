@@ -1,0 +1,332 @@
+Uri: https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\ajax\libs\leaflet\1.7.1\leaflet.js
+Content Type: application/javascript
+
+Uri: https://consent.cookiebot.com/2c8be50b-50fe-40ea-aa5a-a20e3e28c7cb/cd.js
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\2c8be50b-50fe-40ea-aa5a-a20e3e28c7cb\cd.js
+Content Type: application/javascript
+
+Uri: https://consent.cookiebot.com/uc.js
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\uc.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/opensans/v43/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4n.ttf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\s\opensans\v43\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4n.ttf
+Content Type: font/ttf
+
+Uri: https://habitarehomes.co.uk/
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\index.htm
+Content Type: text/html
+
+Uri: https://habitarehomes.co.uk/assets/app.css
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\app.css
+Content Type: text/css
+
+Uri: https://habitarehomes.co.uk/assets/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://habitarehomes.co.uk/assets/files/2024-financial-statements-habitare-homes-limited.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\2024-financial-statements-habitare-homes-limited.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/2025-ho-code.docx
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\2025-ho-code.docx
+Content Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+
+Uri: https://habitarehomes.co.uk/assets/files/annual-complaints-performance-2024.docx
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\annual-complaints-performance-2024.docx
+Content Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-aids-and-adaptations-policy-may-2023.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-aids-and-adaptations-policy-may-2023.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-annual-report-2022.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-annual-report-2022.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-annual-report-2023.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-annual-report-2023.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-anti-social-behaviour-policy-march-2024.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-anti-social-behaviour-policy-march-2024.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-complaints-policy-june-2024.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-complaints-policy-june-2024.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-domestic-abuse-policy.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-domestic-abuse-policy.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-lettings-and-allocations-policy-oct-2024.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-lettings-and-allocations-policy-oct-2024.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-limited-31-december-2021.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-limited-31-december-2021.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-minimum-surplus-income-july-2024.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-minimum-surplus-income-july-2024.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-mutual-exchange-policy-june-2024.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-mutual-exchange-policy-june-2024.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-q1-2023-transparency-report.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-q1-2023-transparency-report.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-q1-2024-transparency-report.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-q1-2024-transparency-report.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-q1-2025-transparency-report.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-q1-2025-transparency-report.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-q2-2023-transparency-report.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-q2-2023-transparency-report.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-q2-2024-transparency-report.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-q2-2024-transparency-report.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-q2-2025-transparency-report.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-q2-2025-transparency-report.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-q3-2022-transparency-report.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-q3-2022-transparency-report.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-q3-2023-transparency-report.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-q3-2023-transparency-report.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-q3-2024-transparency-report.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-q3-2024-transparency-report.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-q4-2022-transparency-report.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-q4-2022-transparency-report.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-q4-2023-transparency-report.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-q4-2023-transparency-report.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-q4-2024-transparency-report.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-q4-2024-transparency-report.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-repairs-and-maintenance-policy-oct-2024.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-repairs-and-maintenance-policy-oct-2024.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-resident-involvement-and-empowerment-policy-march-2024.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-resident-involvement-and-empowerment-policy-march-2024.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-sales-fcfs-july-2024.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-sales-fcfs-july-2024.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/habitare-homes-tenancy-policy-oct-2023.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\habitare-homes-tenancy-policy-oct-2023.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/mangpm-tsm-survey-2024-habitare-v3-003.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\mangpm-tsm-survey-2024-habitare-v3-003.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/files/tenant-satisfaction-measures-return.xlsm
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\tenant-satisfaction-measures-return.xlsm
+Content Type: application/octet-stream
+
+Uri: https://habitarehomes.co.uk/assets/files/tsm-summary-of-approach-2025.pdf
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\files\tsm-summary-of-approach-2025.pdf
+Content Type: application/pdf
+
+Uri: https://habitarehomes.co.uk/assets/fonts/icon.svg?v1
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\fonts\icon.svg
+Content Type: image/svg+xml
+
+Uri: https://habitarehomes.co.uk/assets/fonts/icon.ttf?v1
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\fonts\icon.ttf
+Content Type: application/octet-stream
+
+Uri: https://habitarehomes.co.uk/assets/fonts/icon.woff?v1
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\fonts\icon.woff
+Content Type: application/font-woff
+
+Uri: https://habitarehomes.co.uk/assets/fonts/OpenSans-Light.woff?v1
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\fonts\OpenSans-Light.woff
+Content Type: application/font-woff
+
+Uri: https://habitarehomes.co.uk/assets/fonts/OpenSans-Regular.eot?v1
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\fonts\OpenSans-Regular.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://habitarehomes.co.uk/assets/fonts/OpenSans-Regular.svg?v1
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\fonts\OpenSans-Regular.svg
+Content Type: image/svg+xml
+
+Uri: https://habitarehomes.co.uk/assets/fonts/OpenSans-Regular.ttf?v1
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\fonts\OpenSans-Regular.ttf
+Content Type: application/octet-stream
+
+Uri: https://habitarehomes.co.uk/assets/fonts/OpenSans-Regular.woff?v1
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\fonts\OpenSans-Regular.woff
+Content Type: application/font-woff
+
+Uri: https://habitarehomes.co.uk/assets/fonts/OpenSans-Semibold.eot?v1
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\fonts\OpenSans-Semibold.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://habitarehomes.co.uk/assets/fonts/OpenSans-Semibold.svg?v1
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\fonts\OpenSans-Semibold.svg
+Content Type: image/svg+xml
+
+Uri: https://habitarehomes.co.uk/assets/fonts/OpenSans-Semibold.ttf?v1
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\fonts\OpenSans-Semibold.ttf
+Content Type: application/octet-stream
+
+Uri: https://habitarehomes.co.uk/assets/fonts/OpenSans-Semibold.woff?v1
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\fonts\OpenSans-Semibold.woff
+Content Type: application/font-woff
+
+Uri: https://habitarehomes.co.uk/assets/img/amplius_grand_union.png
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\img\amplius_grand_union.png
+Content Type: image/png
+
+Uri: https://habitarehomes.co.uk/assets/img/amplius_longhurst.png
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\img\amplius_longhurst.png
+Content Type: image/png
+
+Uri: https://habitarehomes.co.uk/assets/img/annual-report-cover-2024-v2.jpg
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\img\annual-report-cover-2024-v2.jpg
+Content Type: image/jpeg
+
+Uri: https://habitarehomes.co.uk/assets/img/arrow@2x.png
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\img\arrow@2x.png
+Content Type: image/png
+
+Uri: https://habitarehomes.co.uk/assets/img/bg_cubes@2x.png
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\img\bg_cubes@2x.png
+Content Type: image/png
+
+Uri: https://habitarehomes.co.uk/assets/img/bubble@2x.png
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\img\bubble@2x.png
+Content Type: image/png
+
+Uri: https://habitarehomes.co.uk/assets/img/cogs@2x.png
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\img\cogs@2x.png
+Content Type: image/png
+
+Uri: https://habitarehomes.co.uk/assets/img/David_Gannicott.jpg
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\img\David_Gannicott.jpg
+Content Type: image/jpeg
+
+Uri: https://habitarehomes.co.uk/assets/img/Eric_Burl.jpg
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\img\Eric_Burl.jpg
+Content Type: image/jpeg
+
+Uri: https://habitarehomes.co.uk/assets/img/favicon.png
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\img\favicon.png
+Content Type: image/png
+
+Uri: https://habitarehomes.co.uk/assets/img/Gabrielle_Berring.jpg
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\img\Gabrielle_Berring.jpg
+Content Type: image/jpeg
+
+Uri: https://habitarehomes.co.uk/assets/img/habitare-homes-logo.svg
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\img\habitare-homes-logo.svg
+Content Type: image/svg+xml
+
+Uri: https://habitarehomes.co.uk/assets/img/hero.jpg
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\img\hero.jpg
+Content Type: image/jpeg
+
+Uri: https://habitarehomes.co.uk/assets/img/HH-visualisation3.png
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\img\HH-visualisation3.png
+Content Type: image/png
+
+Uri: https://habitarehomes.co.uk/assets/img/Katrina_Laud.jpg
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\img\Katrina_Laud.jpg
+Content Type: image/jpeg
+
+Uri: https://habitarehomes.co.uk/assets/img/marc-noaro.jpg
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\img\marc-noaro.jpg
+Content Type: image/jpeg
+
+Uri: https://habitarehomes.co.uk/assets/img/Mark_Sayer.jpg
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\img\Mark_Sayer.jpg
+Content Type: image/jpeg
+
+Uri: https://habitarehomes.co.uk/assets/img/Natalie_Singh.jpg
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\img\Natalie_Singh.jpg
+Content Type: image/jpeg
+
+Uri: https://habitarehomes.co.uk/assets/img/rht-400x400.jpg
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\assets\img\rht-400x400.jpg
+Content Type: image/jpeg
+
+Uri: https://habitarehomes.co.uk/cookie-policy/
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\cookie-policy\index.htm
+Content Type: text/html
+
+Uri: https://habitarehomes.co.uk/csr/
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\csr\index.htm
+Content Type: text/html
+
+Uri: https://habitarehomes.co.uk/customer-service/
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\customer-service\index.htm
+Content Type: text/html
+
+Uri: https://habitarehomes.co.uk/portfolio/
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\portfolio\index.htm
+Content Type: text/html
+
+Uri: https://habitarehomes.co.uk/privacy-notice/
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\privacy-notice\index.htm
+Content Type: text/html
+
+Uri: https://habitarehomes.co.uk/report/
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\report\index.htm
+Content Type: text/html
+
+Uri: https://habitarehomes.co.uk/who-we-are/
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\who-we-are\index.htm
+Content Type: text/html
+
+Uri: https://unpkg.com/leaflet@1.7.1/dist/images/layers-2x.png
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\leaflet@1.7.1\dist\images\layers-2x.png
+Content Type: image/png
+
+Uri: https://unpkg.com/leaflet@1.7.1/dist/images/layers.png
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\leaflet@1.7.1\dist\images\layers.png
+Content Type: image/png
+
+Uri: https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\leaflet@1.7.1\dist\images\marker-icon.png
+Content Type: image/png
+
+Uri: https://unpkg.com/leaflet@1.7.1/dist/leaflet.css
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\leaflet@1.7.1\dist\leaflet.css
+Content Type: text/css
+
+Uri: https://www.googletagmanager.com/gtag/js?id=G-EXFY9FW7PJ
+File Name: C:\Downloaded Web Sites\habitarehomes.co.uk\gtag\js
+Content Type: application/javascript
+

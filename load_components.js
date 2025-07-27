@@ -1,32 +1,53 @@
 document.addEventListener("DOMContentLoaded", function() {
-    function loadComponent(url, elementId, adjustPath = true) {
+    // Determine the path prefix for relative links based on the current page's location.
+    // If the path contains more than one '/', it's in a subdirectory.
+    const path = window.location.pathname;
+    const pathPrefix = ((path.match(/\//g) || []).length > 1) ? '../' : '';
+
+    function loadComponent(url, elementId) {
         fetch(url)
-            .then(response => response.text())
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.text();
+            })
             .then(html => {
                 const element = document.getElementById(elementId);
                 if (element) {
-                    element.innerHTML = html;
+                    // Prepend the path prefix to all relative href/src attributes in the fetched HTML.
+                    // This regex excludes absolute URLs (http/https), mailto links, and anchor links (#).
+                    const modifiedHtml = html.replace(/(href|src)="(?!https?:\/\/|#|mailto:)([^\"]+)"/g, `$1="${pathPrefix}$2"`);
+                    element.innerHTML = modifiedHtml;
 
-                    // Highlight active menu item
-                    const currentPathname = window.location.pathname.replace(/index\.htm$/, '').replace(/\/$/, '');
-                    const links = element.querySelectorAll('a');
+                    // After loading the header, add the 'active' class to the current page's navigation link.
+                    if (elementId === 'header-placeholder') {
+                        const currentPathname = window.location.pathname.replace(/index\.htm$/, '').replace(/\/$/, '');
+                        const links = element.querySelectorAll('a');
 
-                    links.forEach(link => {
-                        let linkPathname = new URL(link.href).pathname.replace(/index\.htm$/, '').replace(/\/$/, '');
-
-                        if (linkPathname === currentPathname) {
-                            link.classList.add('active');
-                            link.setAttribute('aria-current', 'page');
-                        }
-                    });
-
-                    // If this is the header, and it contains the map container, initialize the map
-                    if (elementId === 'header-placeholder' && document.getElementById('map')) {
-                        delete L.Icon.Default.prototype._getIconUrl;
-                        L.Icon.Default.mergeOptions({
-                            iconUrl: '/assets/img/marker-icon.png',
-                            shadowUrl: '/assets/img/marker-shadow.png'
+                        links.forEach(link => {
+                            // Using link.href provides the full absolute URL, which is then parsed
+                            // to get a clean pathname for comparison.
+                            let linkPathname = new URL(link.href).pathname.replace(/index\.htm$/, '').replace(/\/$/, '');
+    
+                            if (linkPathname === currentPathname) {
+                                link.classList.add('active');
+                                link.setAttribute('aria-current', 'page');
+                            }
                         });
+                    }
+
+                    // If this is the header, and the page contains a map container, initialize the Leaflet map.
+                    if (elementId === 'header-placeholder' && document.getElementById('map')) {
+                        // This is a known workaround for some Leaflet issues.
+                        delete L.Icon.Default.prototype._getIconUrl;
+
+                        // Correctly set map icon paths, prepending the pathPrefix.
+                        L.Icon.Default.mergeOptions({
+                            iconUrl: pathPrefix + 'assets/img/marker-icon.png',
+                            shadowUrl: pathPrefix + 'assets/img/marker-shadow.png'
+                        });
+
                         const tilesUrl = 'https://{s}.tile.osm.org/{z}/{x}/{y}.png';
                         const map = L.map('map').setView([52.5, -1], 7);
                         L.tileLayer(tilesUrl).addTo(map);
@@ -42,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             { name: 'Old Malling Farm, Lewes', coords: [50.885099, 0.002584] },
                             { name: 'Stanhope Gardens, Aldershot', coords: [51.25757190399515, -0.7646997198857641] }
                         ];
-                        const markers = cities.map(c =>
+                        cities.map(c =>
                             L.marker(c.coords)
                                 .addTo(map)
                                 .bindTooltip(`${c.name}`)
@@ -53,8 +74,8 @@ document.addEventListener("DOMContentLoaded", function() {
             .catch(error => console.error(`Error loading component from ${url}:`, error));
     }
 
-    // Load header
-    loadComponent('/header.htm', 'header-placeholder', false);
-    // Load footer
-    loadComponent('/footer.htm', 'footer-placeholder', false);
-}); 
+    // Load header and footer components.
+    // The URLs are relative to the root of the site.
+    loadComponent('/header.htm', 'header-placeholder');
+    loadComponent('/footer.htm', 'footer-placeholder');
+});

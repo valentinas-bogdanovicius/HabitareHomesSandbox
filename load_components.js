@@ -22,10 +22,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     // If this is the header, and it contains the map container, initialize the map
                     if (elementId === 'header-placeholder' && document.getElementById('map')) {
+                        delete L.Icon.Default.prototype._getIconUrl;
                         L.Icon.Default.mergeOptions({
-                            iconRetinaUrl: '/leaflet@1.7.1/dist/images/marker-icon-2x.png',
-                            iconUrl: '/leaflet@1.7.1/dist/images/marker-icon.png',
-                            shadowUrl: '/leaflet@1.7.1/dist/images/marker-shadow.png'
+                            iconUrl: '/assets/img/marker-icon.png',
+                            shadowUrl: '/assets/img/marker-shadow.png'
                         });
                         const tilesUrl = 'https://{s}.tile.osm.org/{z}/{x}/{y}.png';
                         const map = L.map('map').setView([52.5, -1], 7);

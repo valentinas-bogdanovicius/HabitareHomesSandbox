@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     // If this is the header, and it contains the map container, initialize the map
                     if (elementId === 'header-placeholder' && document.getElementById('map')) {
+                        delete L.Icon.Default.prototype._getIconUrl;
                         L.Icon.Default.mergeOptions({
                             iconUrl: '/assets/img/marker-icon.png',
                             shadowUrl: '/assets/img/marker-shadow.png'

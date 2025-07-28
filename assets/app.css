@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 [class*=ico-]::before {
   display: inline-block;
   vertical-align: middle;
@@ -20,7 +20,7 @@
   src: url("fonts/icon.eot?v1") format("eot"), url("fonts/icon.svg") format("svg"), url("fonts/icon.woff") format("woff"), url("fonts/icon.ttf") format("truetype");
 }
 body {
-  font-family: Arial, Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-display: fallback;
 }
@@ -30,7 +30,7 @@ h2,
 h3,
 h4,
 h5, .button, .button--small {
-  font-family: Arial, Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-display: fallback;
 }

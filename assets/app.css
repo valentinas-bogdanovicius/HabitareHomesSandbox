@@ -17,7 +17,30 @@
   font-weight: normal;
   font-display: swap;
   font-style: normal;
-  src: url("fonts/icon.eot?v1") format("eot"), url("fonts/icon.svg") format("svg"), url("fonts/icon.woff") format("woff"), url("fonts/icon.ttf") format("truetype");
+  src: url("/assets/fonts/icon.eot?v1") format("eot"), url("/assets/fonts/icon.svg") format("svg"), url("/assets/fonts/icon.woff") format("woff"), url("/assets/fonts/icon.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+  src: url("/assets/fonts/OpenSans-Light-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+  src: url("/assets/fonts/OpenSans-Regular.eot") format("eot"), url("/assets/fonts/OpenSans-Regular.svg") format("svg"), url("/assets/fonts/OpenSans-Regular.woff") format("woff"), url("/assets/fonts/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+  src: url("/assets/fonts/OpenSans-Semibold.eot") format("eot"), url("/assets/fonts/OpenSans-Semibold.svg") format("svg"), url("/assets/fonts/OpenSans-Semibold.woff") format("woff"), url("/assets/fonts/OpenSans-Semibold.ttf") format("truetype");
 }
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -32,7 +55,6 @@ h4,
 h5, .button, .button--small {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-display: fallback;
 }
 
 .profile p, .footer__container nav a, small,
@@ -49,7 +71,7 @@ h5, .button, .button--small {
   font-size: 1.2em;
 }
 .copy p {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5;
   hanging-punctuation: first;
 }
 

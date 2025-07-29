@@ -27,32 +27,7 @@
 </head>
 <body>
   <div class="page">
-    <header class="header">
-      <section class="section__container">
-    <div class="section header__brand">
-
-        <a href="../index.htm" class="header__logo">
-            <img src="../assets/img/habitare-homes-logo.svg" alt="Habitare Homes">
-        </a>
-
-        <div class="menu-trigger">
-            <a data-bs-toggle="collapse" href="#menu" role="button" aria-expanded="false" aria-controls="menu">
-            </a>
-        </div>
-
-        <nav class="header__menu collapse" id="menu">
-            <a href="../index.htm" class="active">Home</a>
-            <a href="../who-we-are/index.htm">Who We Are</a>
-            <a href="../portfolio/index.htm">Portfolio</a>
-            <a href="../report/index.htm">Report</a>
-            <a href="../csr/index.htm">CSR</a>
-            <a href="index.htm" class="active" aria-current="page">Customer Service</a>
-        </nav>
-    </div>
-</section>
-
-      
-    </header>
+    <div id="header-placeholder"></div>
     <main class="content">
       <div class="section__container white">
     <section class="section">
@@ -228,33 +203,7 @@
   </div>
 
   <script src="../assets/bootstrap.min.js"></script>
-  <script src="../ajax/libs/leaflet/1.7.1/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
-    <script type="text/javascript">
-      //https://codepen.io/gnykka/pen/VwaNGeP
-    // const tilesUrl = 'https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png';
-    const tilesUrl = 'https://{s}.tile.osm.org/{z}/{x}/{y}.png';
-    const map = L.map('map').setView([52.5, -1], 7);
-
-    L.tileLayer(tilesUrl).addTo(map);
-
-    const cities = [
-      { name: 'Atelier, Lewes', coords: [50.8664, -0.0229] },
-      { name: 'Alconbury Weald, Crest Nicholson', coords: [52.3758, -0.2403] },
-      { name: 'Dysart Road, Grantham', coords: [52.9100, -0.6734] },
-      { name: 'Campbell Wharf', coords: [52.0499, -0.7367] },
-      { name: 'Towergate, Crest Nicholson', coords: [52.0313, -0.6788] },
-      { name: 'Coombe Farm, Saltdean', coords: [50.8127, -0.0253] },
-      { name: 'Tattenhoe Park, Crest Nicholson', coords: [51.9936, -0.8046] },
-      { name: 'Old Malling Farm, Lewes', coords: [50.885099, 0.002584] },
-      { name: 'Stanhope Gardens, Aldershot', coords: [51.25757190399515, -0.7646997198857641] }
-    ];
-    const markers = cities.map(c =>
-      L.marker(c.coords)
-        .addTo(map)
-        // .bindPopup(`${c.name}`)
-        .bindTooltip(`${c.name}`)
-    );
-  </script>
+  <script src="../load_components.js"></script>
 </body>
 </html>
 

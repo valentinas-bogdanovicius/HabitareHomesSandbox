@@ -1,5 +1,5 @@
 @charset "UTF-8";
-[class*=ico-]::before {
+[class*="ico-"]::before {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
@@ -9,7 +9,6 @@
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   font-style: normal;
-  speak: none;
 }
 
 @font-face {
@@ -17,7 +16,11 @@
   font-weight: normal;
   font-display: swap;
   font-style: normal;
-  src: url("/assets/fonts/icon.eot?v1") format("eot"), url("/assets/fonts/icon.svg") format("svg"), url("/assets/fonts/icon.woff") format("woff"), url("/assets/fonts/icon.ttf") format("truetype");
+  src:
+    url("/assets/fonts/icon.eot?v1") format("eot"),
+    url("/assets/fonts/icon.svg") format("svg"),
+    url("/assets/fonts/icon.woff") format("woff"),
+    url("/assets/fonts/icon.ttf") format("truetype");
 }
 
 @font-face {
@@ -33,14 +36,22 @@
   font-weight: 400;
   font-display: swap;
   font-style: normal;
-  src: url("/assets/fonts/OpenSans-Regular.eot") format("eot"), url("/assets/fonts/OpenSans-Regular.svg") format("svg"), url("/assets/fonts/OpenSans-Regular.woff") format("woff"), url("/assets/fonts/OpenSans-Regular.ttf") format("truetype");
+  src:
+    url("/assets/fonts/OpenSans-Regular.eot") format("eot"),
+    url("/assets/fonts/OpenSans-Regular.svg") format("svg"),
+    url("/assets/fonts/OpenSans-Regular.woff") format("woff"),
+    url("/assets/fonts/OpenSans-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Open Sans";
   font-weight: 600;
   font-display: swap;
   font-style: normal;
-  src: url("/assets/fonts/OpenSans-Semibold.eot") format("eot"), url("/assets/fonts/OpenSans-Semibold.svg") format("svg"), url("/assets/fonts/OpenSans-Semibold.woff") format("woff"), url("/assets/fonts/OpenSans-Semibold.ttf") format("truetype");
+  src:
+    url("/assets/fonts/OpenSans-Semibold.eot") format("eot"),
+    url("/assets/fonts/OpenSans-Semibold.svg") format("svg"),
+    url("/assets/fonts/OpenSans-Semibold.woff") format("woff"),
+    url("/assets/fonts/OpenSans-Semibold.ttf") format("truetype");
 }
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -52,18 +63,23 @@ h1,
 h2,
 h3,
 h4,
-h5, .button, .button--small {
+h5,
+.button,
+.button--small {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 300;
 }
 
-.profile p, .footer__container nav a, small,
+.profile p,
+.footer__container nav a,
+small,
 .small {
   font-size: 0.9375em;
   line-height: 1.2;
 }
 
-.button, .button--small {
+.button,
+.button--small {
   text-transform: uppercase;
 }
 
@@ -93,7 +109,8 @@ a {
   text-decoration: none;
   color: #3881bb;
 }
-a:focus, a:active {
+a:focus,
+a:active {
   text-decoration: none;
   color: #4e9bd8;
 }
@@ -198,17 +215,20 @@ h5 {
   }
 }
 
-.box, .profile__details {
+.box,
+.profile__details {
   border-radius: 0.25em;
   box-shadow: 0 4px 4px 0 rgba(38, 38, 38, 0.08);
   padding: 2.25em;
 }
 
-.link, .header__menu a {
+.link,
+.header__menu a {
   position: relative;
 }
 @media (min-width: 1025px) {
-  .link::after, .header__menu a::after {
+  .link::after,
+  .header__menu a::after {
     position: absolute;
     left: 0;
     bottom: -2px;
@@ -218,42 +238,54 @@ h5 {
     height: 2px;
     content: "";
   }
-  .link:hover::after, .header__menu a:hover::after {
+  .link:hover::after,
+  .header__menu a:hover::after {
     transition: width 0.2s ease-in;
     width: 100%;
   }
 }
 
-.overlay--dark, .dark {
+.overlay--dark,
+.dark {
   color: #ffffff;
 }
-.overlay--dark .link, .dark .link,
+.overlay--dark .link,
+.dark .link,
 .overlay--dark a:not([class]),
 .dark a:not([class]) {
   color: #d5e1ea;
 }
-.overlay--dark .link:hover, .dark .link:hover,
+.overlay--dark .link:hover,
+.dark .link:hover,
 .overlay--dark a:not([class]):hover,
 .dark a:not([class]):hover {
   color: #f7f9fb;
 }
 
-.grey, .white, .profile__details {
+.grey,
+.white,
+.profile__details {
   color: #262626;
 }
-.grey .link, .white .link, .profile__details .link,
+.grey .link,
+.white .link,
+.profile__details .link,
 .grey a:not([class]),
 .white a:not([class]),
 .profile__details a:not([class]) {
   color: #3881bb;
 }
-.grey .link:hover, .white .link:hover, .profile__details .link:hover,
+.grey .link:hover,
+.white .link:hover,
+.profile__details .link:hover,
 .grey a:not([class]):hover,
 .white a:not([class]):hover,
 .profile__details a:not([class]):hover {
   color: #4e9bd8;
 }
-.grey h1, .white h1, .profile__details h1,
+.grey h1,
+.white h1,
+.profile__details h1,
 .grey h2,
 .white h2,
 .profile__details h2,
@@ -295,17 +327,17 @@ select {
   font: inherit;
 }
 
-[class^=grid-] {
+[class^="grid-"] {
   display: grid;
   grid-gap: 3em;
 }
-[class^=grid-].medium {
+[class^="grid-"].medium {
   grid-gap: 1.5em 2em;
 }
-[class^=grid-].compact {
+[class^="grid-"].compact {
   grid-gap: 0.5em 1em;
 }
-[class^=grid-].no-gap {
+[class^="grid-"].no-gap {
   grid-gap: 0;
 }
 
@@ -531,7 +563,8 @@ body {
   display: table;
 }
 
-.tbl-cell-1, .tbl-cell-2 {
+.tbl-cell-1,
+.tbl-cell-2 {
   display: inline-flex;
   flex-direction: column;
   justify-content: end;
@@ -569,12 +602,12 @@ body {
     width: 40%;
   }
 }
-.button--small, .button {
+.button--small,
+.button {
   position: relative;
   display: inline-block;
   vertical-align: top;
   margin-bottom: 0.2em;
-  -webkit-appearance: none;
   width: auto;
   line-height: 1;
   text-align: center;
@@ -582,7 +615,8 @@ body {
   text-decoration: none !important;
   font-weight: 600;
 }
-.button--small:focus, .button:focus {
+.button--small:focus,
+.button:focus {
   outline: 0;
 }
 
@@ -596,7 +630,10 @@ body {
   background: transparent;
   color: #3881bb;
 }
-.button:hover, .button:enabled:hover, .button:active, .button:focus {
+.button:hover,
+.button:enabled:hover,
+.button:active,
+.button:focus {
   transition: all 0.1s ease-in;
   box-shadow: 0 0 0 1px #3881bb inset;
   background: #3881bb;
@@ -614,7 +651,10 @@ body {
   color: #3881bb;
   vertical-align: middle;
 }
-.button--small:hover, .button--small:enabled:hover, .button--small:active, .button--small:focus {
+.button--small:hover,
+.button--small:enabled:hover,
+.button--small:active,
+.button--small:focus {
   transition: all 0.1s ease-in;
   box-shadow: 0 0 0 1px #3881bb inset;
   background: #3881bb;
@@ -710,7 +750,8 @@ body {
   margin-left: 2em;
   padding: 1.5em 0.1em;
 }
-.header__menu a:focus, .header__menu a:active {
+.header__menu a:focus,
+.header__menu a:active {
   text-decoration: none;
   color: #3881bb;
 }
@@ -736,14 +777,14 @@ body {
     padding: 2.3em 0.1em;
   }
 }
-.header__menu a[aria-current=page] {
+.header__menu a[aria-current="page"] {
   color: #3881bb;
 }
-.header__menu a[aria-current=page]::after {
+.header__menu a[aria-current="page"]::after {
   width: 100%;
 }
 @media (max-width: 1024px) {
-  .header__menu a[aria-current=page] {
+  .header__menu a[aria-current="page"] {
     background: #3881bb;
     color: #ffffff;
   }
@@ -765,16 +806,17 @@ body {
   width: 1.9375em;
   height: 1.5em;
 }
-.menu-trigger a[aria-expanded=true] {
+.menu-trigger a[aria-expanded="true"] {
   border-top: 0;
 }
-.menu-trigger a[aria-expanded=true]::before {
+.menu-trigger a[aria-expanded="true"]::before {
   transform: rotate(45deg) translate(3px, 4px);
 }
-.menu-trigger a[aria-expanded=true]::after {
+.menu-trigger a[aria-expanded="true"]::after {
   transform: rotate(-45deg) translate(2px, -3px);
 }
-.menu-trigger a::after, .menu-trigger a::before {
+.menu-trigger a::after,
+.menu-trigger a::before {
   position: relative;
   display: block;
   border-top: 2px solid #5b7089;
@@ -805,7 +847,8 @@ body {
   display: inline-block;
   margin: 0 0 0 1em;
 }
-.footer__container nav a:focus, .footer__container nav a:active {
+.footer__container nav a:focus,
+.footer__container nav a:active {
   text-decoration: underline;
   color: #3881bb;
 }
@@ -842,7 +885,8 @@ body {
   color: #3881bb;
   cursor: pointer;
 }
-.link:focus, .link:active {
+.link:focus,
+.link:active {
   text-decoration: none;
   color: #4e9bd8;
 }
@@ -1546,7 +1590,11 @@ hr {
 }
 
 .overlay--dark::after {
-  background: linear-gradient(90deg, rgba(38, 38, 38, 0.7) 0%, rgba(38, 38, 38, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(38, 38, 38, 0.7) 0%,
+    rgba(38, 38, 38, 0) 100%
+  );
 }
 .overlay--dark .banner h1,
 .overlay--dark .banner h2,

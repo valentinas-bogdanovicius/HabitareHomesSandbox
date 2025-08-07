@@ -1635,4 +1635,24 @@ hr {
   background-size: 44em 44em;
 }
 
-/*# sourceMappingURL=app.css.map */
+.feature-card {
+  display: block;
+  padding: 2.25em;
+  text-align: center;
+  color: inherit;
+}
+
+.feature-card h5 {
+  margin-top: 1em;
+  min-height: 2.5em; /* Helps align titles */
+}
+
+.feature-card p {
+  min-height: 6em; /* Helps align paragraphs */
+}
+
+.feature-card .button {
+  margin-top: 1em;
+}
+
+$1

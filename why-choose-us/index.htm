@@ -77,44 +77,121 @@
                         <img src="../assets/img/quality-commitment.jpg" alt="A modern, high-quality kitchen interior" />
                     </article>
                 </div>
-        </div>
-        <div class="section__container dark">
+        </div>        <div class="section__container dark">
           <section class="section">
             <div class="intro align-center">
               <h2>Explore Habitare Homes</h2>
             </div>
-            <div class="grid-4">
-              <article class="feature-card">
-                <i class="ico-briefcase sz-xl"></i>
-                <h5>Our Portfolio</h5>
-                <p>Discover our range of new Shared Ownership and Affordable Rental homes across the UK.</p>
-                <p><a href="../portfolio/index.htm" class="button">Learn More</a></p>
-              </article>
-              <article class="feature-card">
-                <i class="ico-profile-male sz-xl"></i>
-                <h5>Who We Are</h5>
-                <p>Learn about our mission and meet the dedicated board members behind Habitare Homes.</p>
-                <p><a href="../who-we-are/index.htm" class="button">Learn More</a></p>
-              </article>
-              <article class="feature-card">
-                <i class="ico-chat sz-xl"></i>
-                <h5>Customer Service</h5>
-                <p>Find information on our complaints process and access our resident policies.</p>
-                <p><a href="../customer-service/index.htm" class="button">Learn More</a></p>
-              </article>
-              <article class="feature-card">
-                <i class="ico-documents sz-xl"></i>
-                <h5>Reports & Accounts</h5>
-                <p>Access our annual reports, financial statements, and transparency documents.</p>
-                <p><a href="../report/index.htm" class="button">Learn More</a></p>
-              </article>
+            <div class="explorer-carousel-container">
+              <button class="explorer-arrow prev" aria-label="Previous">&lt;</button>
+              <div class="explorer-carousel">
+                <div class="explorer-cards">
+                  <!-- Card 1: Who We Are -->
+                  <article class="feature-card">
+                    <i class="ico-profile-male sz-xl"></i>
+                    <h5>Who We Are</h5>
+                    <p>Learn about our mission and meet the dedicated board members behind Habitare Homes.</p>
+                    <p><a href="../who-we-are/index.htm" class="button">Learn More</a></p>
+                  </article>
+                  <!-- Card 2: Portfolio -->
+                  <article class="feature-card">
+                    <i class="ico-briefcase sz-xl"></i>
+                    <h5>Our Portfolio</h5>
+                    <p>Discover our range of new Shared Ownership and Affordable Rental homes across the UK.</p>
+                    <p><a href="../portfolio/index.htm" class="button">Learn More</a></p>
+                  </article>
+                  <!-- Card 3: Report -->
+                  <article class="feature-card">
+                    <i class="ico-documents sz-xl"></i>
+                    <h5>Reports & Accounts</h5>
+                    <p>Access our annual reports, financial statements, and transparency documents.</p>
+                    <p><a href="../report/index.htm" class="button">Learn More</a></p>
+                  </article>
+                  <!-- Card 4: CSR -->
+                  <article class="feature-card">
+                    <i class="ico-globe sz-xl"></i>
+                    <h5>CSR</h5>
+                    <p>Read about our commitment to governance, diversity, and environmental impact.</p>
+                    <p><a href="../csr/index.htm" class="button">Learn More</a></p>
+                  </article>
+                  <!-- Card 5: Customer Service -->
+                  <article class="feature-card">
+                    <i class="ico-chat sz-xl"></i>
+                    <h5>Customer Service</h5>
+                    <p>Find information on our complaints process and access our resident policies.</p>
+                    <p><a href="../customer-service/index.htm" class="button">Learn More</a></p>
+                  </article>
+                </div>
+              </div>
+              <button class="explorer-arrow next" aria-label="Next">&gt;</button>
             </div>
           </section>
         </div>
       </main>
       <div id="footer-placeholder"></div>
-    </div>
+    </div>    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const cardsContainer = document.querySelector('.explorer-cards');
+            const cards = document.querySelectorAll('.explorer-cards .feature-card');
+            const prevButton = document.querySelector('.explorer-arrow.prev');
+            const nextButton = document.querySelector('.explorer-arrow.next');
 
+            if (!cardsContainer) return;
+
+            let currentIndex = 0;
+            let visibleCards = 3;
+
+            function updateVisibleCards() {
+                if (window.innerWidth <= 768) {
+                    visibleCards = 1;
+                } else if (window.innerWidth <= 1024) {
+                    visibleCards = 2;
+                } else {
+                    visibleCards = 3;
+                }
+                updateCarousel();
+            }
+
+            function updateCarousel() {
+                const totalCards = cards.length;
+                if (totalCards === 0) return;
+
+                const maxIndex = totalCards > visibleCards ? totalCards - visibleCards : 0;
+                
+                if (currentIndex > maxIndex) {
+                    currentIndex = maxIndex;
+                }
+                
+                const cardMargin = cards.length > 1 ? parseInt(getComputedStyle(cards[0]).marginLeft) + parseInt(getComputedStyle(cards[0]).marginRight) : 0;
+                const cardWidth = cards[0].offsetWidth + cardMargin;
+                const offset = -currentIndex * cardWidth;
+                cardsContainer.style.transform = `translateX(${offset}px)`;
+                
+                prevButton.style.display = currentIndex === 0 ? 'none' : 'block';
+                nextButton.style.display = currentIndex >= maxIndex ? 'none' : 'block';
+            }
+
+            nextButton.addEventListener('click', () => {
+                const totalCards = cards.length;
+                const maxIndex = totalCards > visibleCards ? totalCards - visibleCards : 0;
+                if (currentIndex < maxIndex) {
+                    currentIndex++;
+                    updateCarousel();
+                }
+            });
+
+            prevButton.addEventListener('click', () => {
+                if (currentIndex > 0) {
+                    currentIndex--;
+                    updateCarousel();
+                }
+            });
+
+            window.addEventListener('resize', updateVisibleCards);
+            // A small delay to ensure rendering is complete for width calculation
+            setTimeout(updateVisibleCards, 100);
+        });
+    </script>
     <script src="../assets/bootstrap.min.js"></script>
     <script src="../ajax/libs/leaflet/1.7.1/leaflet.js"></script>
     <script src="../load_components.js"></script>
